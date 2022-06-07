@@ -1,0 +1,39 @@
+.contact{
+    background-image: url(../../../src/assets/images/bg.png) !important;
+    position: relative;
+    z-index: 1;
+}
+.contact::before{
+    position: absolute !important;
+    content: "";
+    top:0;
+    width: 100%;
+   
+   
+    opacity: .9;
+    z-index: -1;
+}
+.contact{
+    background-color:rgb(58, 57, 66)!important; 
+    height: 600px;
+}
+.form-control{
+    width: 70%;
+    margin-top: 10px
+}
+.buttons button{
+    background-color: aqua;
+    height: 40px;
+    width: 120px;
+    border-color: aqua;
+    border-radius: 5px;
+    
+}
+.texts h1{
+    color: white;
+    margin-top: 1px;
+
+
+   
+    
+}
